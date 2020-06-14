@@ -1,36 +1,37 @@
 import pygame
 import time
+import sys
 import random
+import os
 pygame.init()
 
-#colors
+# NOTE: There are commented code related to snake tail which I was not able to satisfactorily implement
+# Please ignore them or If you can make it work PLEASE DO
+
+# Colors
 white = (255,255,255)
 black = (0,0,0)
 red   = (255,0,0)
 green = (0,155,0)
 blue  = (0,0,255)
 
+# Display Size
 display_width = 800
 display_height = 600
 gameDisplay = pygame.display.set_mode((display_width,display_height))
 
-#title
+# Title
 pygame.display.set_caption('SnakeGame')
 
-snakeHeadImg = pygame.image.load('snakeHead.png')
-appleImg = pygame.image.load('apple.png')
+# Images
+snakeHeadImg = pygame.image.load(os.path.join('images','snakeHead.png')).convert()
+appleImg = pygame.image.load(os.path.join('images','apple.png')).convert()
 
 pygame.display.set_icon(appleImg)
-
-#update the entire surface
-pygame.display.flip()
-#updates the specific area mentioned
-pygame.display.update()
 
 appleThickness = 30
 block_size = 20
 FPS = 10
-# directionList = ['right']
 clock = pygame.time.Clock()
 
 
@@ -48,8 +49,8 @@ mediumFont = pygame.font.SysFont('comicsansms',50)
 largeFont = pygame.font.SysFont('comicsansms',80)
 
 
-'''MESSAGE TO SCREEN'''
 def message_to_screen(msg, color, y_displ = 0,size = smallFont):
+    '''MESSAGE TO SCREEN'''
     textSurface, textRect = text_object(msg, color,size)
     textRect.center = (display_width/2),(display_height/2 + y_displ)
     gameDisplay.blit(textSurface, textRect)
@@ -61,11 +62,10 @@ def message_to_screen(msg, color, y_displ = 0,size = smallFont):
 
 
 
-
 ############################################################# make_snake ########################################################################
 
 def make_snake(block_size, snakeList, direction):
-    # global directionList
+    ''' Makes the snake object'''
     if direction == 'right':
         head = pygame.transform.rotate(snakeHeadImg, 270)
     elif direction == 'left':
@@ -104,7 +104,7 @@ def make_snake(block_size, snakeList, direction):
 
     for XnY in snakeList[0:-1]:
         pygame.draw.rect(gameDisplay, green, [XnY[0], XnY[1], block_size, block_size])
-#------------------------------------------------------------  END OF make_snake  ---------------------------------------------------------------------------
+##############################################################  END OF make_snake  #############################################################
 
 
 
@@ -281,7 +281,7 @@ def gameLoop():
         pygame.display.update()
 
     pygame.quit()
-    quit()
+    sys.exit(0)
 #----------------------------------------------------   END OF GAME LOOP   ------------------------------------------------------
 
 

@@ -26,7 +26,7 @@ I will hopefully add background image and soundtrack, but I can't guarantee anyt
 &ensp;
 
 # Credits
-The apple icon is taken from [Flaticon](https://www.flaticon.com/search?word=apples)
+* The apple icon is taken from [Flaticon](https://www.flaticon.com/search?word=apples)
                                               
                                                              
                                               

@@ -8,25 +8,24 @@ This is a bare minimum game and doesn't have any special features
 
 I will hopefully add background image and soundtrack, but I can't guarantee anything.
 
-**Intro Screen**
+## Intro Screen
 ![IntroScreen](https://github.com/RashimNarayanTiku/SnakeGame/blob/master/introScreen.png? "IntroScreen")
             
 &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 &ensp;
                                                              
-**Paused Screen**
+## Paused Screen
 ![PausedScreen](https://github.com/RashimNarayanTiku/SnakeGame/blob/master/pausedScreen.png? "PausedScreen")
-
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     
-&emsp;&emsp;&emsp;&emsp;&emsp;                  
+  
+&ensp;                
                                                                                   
                                                                  
-**Game Over Screen**     
+## Game Over Screen   
 ![GameOverScreen](https://github.com/RashimNarayanTiku/SnakeGame/blob/master/gameOverScreen.png? "gameOverScreen")
 
 &ensp;
-## Credits
+
+# Credits
 The apple icon is taken from [Flaticon](https://www.flaticon.com/search?word=apples)
                                               
                                                              

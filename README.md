@@ -11,8 +11,8 @@ I will hopefully add background image and soundtrack, but I can't guarantee anyt
 **Intro Screen**
 ![IntroScreen](https://github.com/RashimNarayanTiku/SnakeGame/blob/master/introScreen.png? "IntroScreen")
             
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;
+&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&ensp;
                                                              
 **Paused Screen**
 ![PausedScreen](https://github.com/RashimNarayanTiku/SnakeGame/blob/master/pausedScreen.png? "PausedScreen")
@@ -25,8 +25,9 @@ I will hopefully add background image and soundtrack, but I can't guarantee anyt
 **Game Over Screen**     
 ![GameOverScreen](https://github.com/RashimNarayanTiku/SnakeGame/blob/master/gameOverScreen.png? "gameOverScreen")
 
-
-The apple icon is taken from Flaticon and is there sole property. No copywrite Infringement intended.
+&ensp;
+## Credits
+The apple icon is taken from [Flaticon](https://www.flaticon.com/search?word=apples)
                                               
                                                              
                                               
